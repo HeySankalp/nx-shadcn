@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@shared-library" : ["ui-components/src/index.ts"],
+            "@shared-library/ui-components/*" : ["ui-components/src/lib/*"]
+        }
+    }
+}

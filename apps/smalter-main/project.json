@@ -1,0 +1,16 @@
+{
+  "name": "smalter-main",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/smalter-main/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project smalter-main --web",
+  "targets": {
+    "build": {
+      "executor": "@nx/web:webpack",
+      "options": {
+        "postcssConfig": "../../postcss.config.js"
+      }
+    }
+  }
+}
